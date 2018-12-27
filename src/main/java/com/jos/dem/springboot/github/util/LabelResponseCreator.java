@@ -1,7 +1,7 @@
 package com.jos.dem.springboot.github.util;
 
 import org.springframework.stereotype.Component;
-import com.jos.dem.springboot.github.LabelResponse;
+import com.jos.dem.springboot.github.model.LabelResponse;
 
 @Component
 public class LabelResponseCreator {

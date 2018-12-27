@@ -22,6 +22,15 @@ public class LabelResponse {
   @JsonProperty("default")
   private boolean status;
 
+  public LabelResponse(Long id, String nodeId, String url, String name, String color, boolean status){
+    this.id = id;
+    this.nodeId = nodeId;
+    this.url = url;
+    this.name = name;
+    this.color = color;
+    this.status = status;
+  }
+
   public String getColor(){
     return color;
   }
