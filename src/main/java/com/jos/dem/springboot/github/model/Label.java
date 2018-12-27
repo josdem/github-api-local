@@ -1,4 +1,4 @@
-package com.example.springbootsetup.model;
+package com.jos.dem.springboot.github.model;
 
 public class Label {
   private String name;

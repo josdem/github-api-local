@@ -1,4 +1,4 @@
-package com.example.springbootsetup;
+package com.jos.dem.springboot.github;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
