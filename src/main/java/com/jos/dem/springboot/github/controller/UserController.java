@@ -2,10 +2,14 @@ package com.jos.dem.springboot.github.controller;
 
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
+import java.util.List;
+
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.jos.dem.springboot.github.model.SSHKey;
+import com.jos.dem.springboot.github.model.PublicEmail;
 import com.jos.dem.springboot.github.service.UserService;
 
 import org.slf4j.Logger;
