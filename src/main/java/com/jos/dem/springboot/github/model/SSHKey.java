@@ -1,4 +1,4 @@
-package com.jos.dem.retrofit.workshop.model;
+package com.jos.dem.springboot.github.service;
 
 public class SSHKey {
   Long id;

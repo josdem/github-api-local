@@ -1,8 +1,5 @@
-package com.jos.dem.retrofit.workshop.model;
+package com.jos.dem.springboot.github.service;
 
-import lombok.Data;
-
-@Data
 public class PublicEmail {
   private String email;
   private boolean verified;
