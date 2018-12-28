@@ -16,7 +16,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @RestController
-@RequestMapping("user")
 public class UserController {
 
   @Autowired
@@ -24,13 +23,13 @@ public class UserController {
 
   private Logger log = LoggerFactory.getLogger(this.getClass());
 
-  @RequestMapping(method = GET, value = "/josdem/keys")
+  @RequestMapping(method = GET, value = "users/josdem/keys")
   public List<SSHKey> getKeys(){
     log.info("Getting user keys");
     return userService.getKeys();
   }
 
-  @RequestMapping(method = GET, value = "/public_emails")
+  @RequestMapping(method = GET, value = "user/public_emails")
   public List<PublicEmail> getEmails(){
     log.info("Getting user emails");
     return userService.getEmails();
